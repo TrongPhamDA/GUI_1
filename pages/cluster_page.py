@@ -3,9 +3,6 @@
 # ------------------------------------------------------------------------------
 import streamlit as st
 import pandas as pd
-import joblib
-from gensim import corpora
-from gensim.similarities import SparseMatrixSimilarity
 import sys
 import os
 from sklearn.preprocessing import RobustScaler

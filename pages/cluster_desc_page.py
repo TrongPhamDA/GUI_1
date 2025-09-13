@@ -2,17 +2,8 @@
 # Import libraries
 # ------------------------------------------------------------------------------
 import streamlit as st
-import pandas as pd
-import joblib
-from gensim import corpora
-from gensim.similarities import SparseMatrixSimilarity
 import sys
 import os
-from sklearn.preprocessing import RobustScaler
-from sklearn.cluster import KMeans
-from sklearn.cluster import AgglomerativeClustering
-import numpy as np
-from sklearn.decomposition import PCA
 
 
 # Add current directory to Python path
